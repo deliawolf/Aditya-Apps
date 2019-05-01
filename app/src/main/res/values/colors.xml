@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#385170</color>
+    <color name="colorPrimaryDark">#142d4c</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorsplashbackgroud">#142d4c</color>
+    <color name="deskripsi_viewpager">#ffffff</color>
+    <color name="transpaarantwhite">#cccccc</color>
+    <color name="color_white">#FFFFFF</color>
+</resources>
