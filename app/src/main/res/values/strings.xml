@@ -12,18 +12,11 @@
     <string name="gallery">Gallery</string>
     <string name="musik">Musik</string>
     <string name="profile">Profile</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="aditya">Aditya Apps</string>
     <string name="interest">"Adit memiliki hobi tidur sembari baca buku novel bergenre sci-fi eropa wuxia dan xianxia, adit merupakan tipe orang yang malu berbicara jadi lebih suka menjadi pendengar, memiliki ketertarikan terhadap orang yang bisa dipercaya dan bisa menjadi ibu bagi anak anaknya kelak. \n Tertarik pada kegiatan-kegiatan yang tidak mengeluarkan keringat serta ber cita-cita saat pensiun nanti dapat baca buku di perpustakaan sendiri tanpa takut kekurangan uang"</string>
     <string name="tidur">Tidur</string>
-    <string name="_22_00_04_30_wib">22:00 - 04:30 WIB</string>
-    <string name="_04_30_05_30_wib">04:30 - 05:30 WIB</string>
-    <string name="_05_30_6_450_wib">05:30 - 6:450 WIB</string>
     <string name="kuliah">Kuliah</string>
-    <string name="_07_00_17_00_wib">07:00 - 17:00 WIB</string>
-    <string name="_17_00_18_30_wib">17:00 - 18:30 WIB</string>
     <string name="nugas">Nugas</string>
     <string name="_19_00_20_00_wib">19:00 - 20:00 WIB</string>
     <string name="_20_00_22_00">20:00 - 22:00 WIB</string>
@@ -31,4 +24,5 @@
     <string name="persiapan">persiapan</string>
     <string name="perjalanan">perjalanan</string>
     <string name="title_activity_maps">Map</string>
+    <string name="txtsosial">Mengenal lebih Dekat <a href="http://www.facebook.com/aditya.rozak">klik ini</a></string>
 </resources>

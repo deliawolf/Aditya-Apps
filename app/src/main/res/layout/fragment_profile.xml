@@ -4,13 +4,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragment.ProfileFragment">
-
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/map"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:apiKey="AIzaSyABuP4PGmFtLWlehJHbKyopd_Z2DC67bKY"
-        android:background="#FFFFFF"
-        android:visibility="visible"></com.google.android.gms.maps.MapView>
+        android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtsosial"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="3">
+            <include
+                layout="@layout/activity_maps"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Dibuat oleh" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 </FrameLayout>
