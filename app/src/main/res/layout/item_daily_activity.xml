@@ -8,6 +8,9 @@
     android:background="#817B7B"
     android:orientation="horizontal"
     android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:backgroundTint="@color/Card"
     android:padding="5dp">
 
     <ImageView
@@ -22,17 +25,19 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="16dp">
-        
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="nama_daily"
+            android:textColor="@color/primary_text"
             android:id="@+id/nama_daily"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="dsc_daily"
+            android:textColor="@color/secondary_text"
             android:id="@+id/dsc_daily"/>
     </LinearLayout>
 </LinearLayout>

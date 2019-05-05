@@ -1,5 +1,10 @@
-package com.example.adityaapps.views;
-
+package com.example.adityaapps;
+/*  Nama    : Aditya Mr
+    NIM     : 10116068
+    Kelas   : AKB2
+    Tanggal pengerjaan  : 21 April 2019
+    Updated             : 5 Mei 2019
+ */
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -7,8 +12,6 @@ import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
-
-import com.example.adityaapps.R;
 
 public class SplashActivity extends AppCompatActivity {
 

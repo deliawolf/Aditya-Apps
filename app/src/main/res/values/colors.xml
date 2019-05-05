@@ -2,9 +2,16 @@
 <resources>
     <color name="colorPrimary">#385170</color>
     <color name="colorPrimaryDark">#142d4c</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#B3FFFFFF</color>
     <color name="colorsplashbackgroud">#142d4c</color>
     <color name="deskripsi_viewpager">#ffffff</color>
     <color name="transpaarantwhite">#cccccc</color>
     <color name="color_white">#FFFFFF</color>
+    <color name="StatusBar">#000000</color>
+    <color name="App_bar">#212121</color>
+    <color name="background">#303030</color>
+    <color name="Card">#424242</color>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#B3FFFFFF</color>
+    <color name="hint_text">#80FFFFFF</color>
 </resources>

@@ -8,8 +8,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:contentDescription="@string/img_otak" />
+        android:layout_marginTop="100dp" />
     <TextView
         android:id="@+id/txt_judul_otak"
         android:layout_marginTop="40dp"
@@ -20,7 +19,7 @@
         android:layout_marginLeft="10dp"
         android:textStyle="bold"
         android:textSize="10pt"
-        android:textColor="@color/deskripsi_viewpager"
+        android:textColor="@color/primary_text"
         android:layout_marginRight="10dp"
         android:layout_height="wrap_content" />
 
@@ -35,6 +34,6 @@
         android:layout_marginRight="20dp"
         android:fontFamily="@font/opensanslight"
         android:textAlignment="center"
-        android:textColor="#9E9E9E" />
+        android:textColor="@color/secondary_text" />
 
 </RelativeLayout>

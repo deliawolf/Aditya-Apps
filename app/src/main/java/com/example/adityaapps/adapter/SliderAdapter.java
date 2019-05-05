@@ -10,7 +10,12 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.adityaapps.R;
-
+/*  Nama    : Aditya Mr
+    NIM     : 10116068
+    Kelas   : AKB2
+    Tanggal pengerjaan  : 21 April 2019
+    Updated             : 5 Mei 2019
+ */
 public class SliderAdapter extends PagerAdapter {
 
     Context context;

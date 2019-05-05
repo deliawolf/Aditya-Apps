@@ -1,14 +1,15 @@
 package com.example.adityaapps.fragment;
 
+
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
-import android.support.v7.widget.RecyclerView;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.example.adityaapps.R;
 import com.example.adityaapps.adapter.SubMenuPagerAdapter;
 /*  Nama    : Aditya Mr
@@ -20,7 +21,8 @@ import com.example.adityaapps.adapter.SubMenuPagerAdapter;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HomeFragment extends Fragment {
+public class PProfileFragment extends Fragment {
+
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -35,9 +37,9 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_home, container, false);
+        View v = inflater.inflate(R.layout.fragment_pprofile, container, false);
 
-        viewPager = v.findViewById(R.id.home_view_pager);
+        viewPager = v.findViewById(R.id.profile_view_pager);
         setupViewPager(viewPager);
 
         tabLayout = v.findViewById(R.id.tabs);
@@ -47,8 +49,9 @@ public class HomeFragment extends Fragment {
     }
     private void setupViewPager(ViewPager viewPager) {
         adapter = new SubMenuPagerAdapter(getChildFragmentManager());
-        ((SubMenuPagerAdapter) adapter).addFragment(new Home_ProfileFragment(), "Profile");
-        ((SubMenuPagerAdapter) adapter).addFragment(new Home_InterestFragment(), "Interest");
+        ((SubMenuPagerAdapter) adapter).addFragment(new ProfileFragment(), "Profile");
+        ((SubMenuPagerAdapter) adapter).addFragment(new MapFragment(), "Where u are");
         viewPager.setAdapter((PagerAdapter) adapter);
     }
+
 }

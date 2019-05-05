@@ -1,5 +1,10 @@
-package com.example.adityaapps.views;
-
+package com.example.adityaapps;
+/*  Nama    : Aditya Mr
+    NIM     : 10116068
+    Kelas   : AKB2
+    Tanggal pengerjaan  : 21 April 2019
+    Updated             : 5 Mei 2019
+ */
 import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -10,8 +15,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.adityaapps.MainActivity;
-import com.example.adityaapps.R;
 import com.example.adityaapps.adapter.SliderAdapter;
 
 public class WalkthroughActivity extends AppCompatActivity {

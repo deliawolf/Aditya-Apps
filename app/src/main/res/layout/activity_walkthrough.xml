@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#385170"
-    tools:context=".views.WalkthroughActivity">
+    android:background="@color/background"
+    tools:context=".WalkthroughActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
@@ -40,7 +40,7 @@
         android:layout_marginLeft="10dp"
         android:background="@null"
         android:text="@string/back"
-        android:textColor="@color/color_white"
+        android:textColor="@color/primary_text"
         android:visibility="invisible" />
 
     <Button
@@ -51,7 +51,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp"
         android:text="@string/Next"
-        android:textColor="@color/color_white"
+        android:textColor="@color/primary_text"
         android:background="@null"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="10dp" />

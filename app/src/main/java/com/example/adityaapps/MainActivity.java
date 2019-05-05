@@ -1,5 +1,10 @@
 package com.example.adityaapps;
-
+/*  Nama    : Aditya Mr
+    NIM     : 10116068
+    Kelas   : AKB2
+    Tanggal pengerjaan  : 21 April 2019
+    Updated             : 5 Mei 2019
+ */
 import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -12,6 +17,7 @@ import com.example.adityaapps.fragment.DailyFragment;
 import com.example.adityaapps.fragment.GalleryFragment;
 import com.example.adityaapps.fragment.HomeFragment;
 import com.example.adityaapps.fragment.MusicFragment;
+import com.example.adityaapps.fragment.PProfileFragment;
 import com.example.adityaapps.fragment.ProfileFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     Fragment dailyFragment  = new DailyFragment();
     Fragment galleryFragment  = new GalleryFragment();
     Fragment musicFragment  = new MusicFragment();
-    Fragment profileFragment  = new ProfileFragment();
+    Fragment pprofileFragment  = new PProfileFragment();
 
     FragmentManager fragmentManager = getSupportFragmentManager();
     Fragment fragmentActive = homeFragment;
@@ -54,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.profile:
 
-                    fragmentManager.beginTransaction().hide(fragmentActive).show(profileFragment).commit();
-                    fragmentActive = profileFragment;
+                    fragmentManager.beginTransaction().hide(fragmentActive).show(pprofileFragment).commit();
+                    fragmentActive = pprofileFragment;
                     return true;
             }
             return false;
@@ -68,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         BottomNavigationView navView = findViewById(R.id.nav_view);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-        fragmentManager.beginTransaction().add(R.id.frameLayout, profileFragment).hide(profileFragment).commit();
+        fragmentManager.beginTransaction().add(R.id.frameLayout, pprofileFragment).hide(pprofileFragment).commit();
         fragmentManager.beginTransaction().add(R.id.frameLayout, musicFragment).hide(musicFragment).commit();
         fragmentManager.beginTransaction().add(R.id.frameLayout, galleryFragment).hide(galleryFragment).commit();
         fragmentManager.beginTransaction().add(R.id.frameLayout, dailyFragment).hide(dailyFragment).commit();
